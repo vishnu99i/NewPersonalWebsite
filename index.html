@@ -57,33 +57,38 @@
       </div>
 <!--------------------------------------------------------------------------------------------------------------------------------------->
 
-      <div class="main_container" style="display: flex;
-      flex-direction: row;">
+      <div class="main_container">
 
-        <div style="flex: 1; display: grid;
-        justify-content: end;">
-          <div class="section__pic-container">
+          <div class="section__pic-container" style="grid-area: a;">
             <img src="./assets/ResumePhoto1.jpg" alt="Vishnu profile picture" />
           </div>
-        </div>
+        
 
-        <div style="flex: 1;">
-          <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Vishnu P</h1>
-            <p class="section__text__p2">MERN Stack Developer</p>
-            <div class="btn-container">
+        
+          <div class="section__text" style="grid-area: b;">
+            <div>
+              <p class="section__text__p1">Hello, I'm</p>
+              <h1 class="title">Vishnu P</h1>
+              <p class="section__text__p2">MERN Stack Developer</p>
+            </div>
+          </div>
+
+          <div class="btn-container_1" style="grid-area: c;">
               <button
                 class="btn btn-color-2"
                 onclick="window.open('./assets/VISHNU_P(RESUME).pdf')"
               >
                 Download CV
               </button>
-              <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                Contact Info
-              </button>
-            </div>
-            <div id="socials-container">
+          </div>
+
+          <div class="btn-container_2" style="grid-area: d;">
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+        </div>
+
+          <div id="socials-container" style="grid-area: e;">
               <img
                 src="/assets/linkedin.png"
                 class="icon"
@@ -96,9 +101,7 @@
                 onclick="location.href='https://github.com/vishnu99i'"
                 alt=""
               />
-            </div>
           </div>
-        </div>
 
       </div>
 <!--------------------------------------------------------------------------------------------------------------------------------------->

@@ -15,6 +15,34 @@
     display: flex;
     flex-direction: row;
   }
+  .main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". a b b"
+    ". a c d"
+    ". a e e";
+  }
+  .section__pic-container{
+    display: flex;
+    justify-content: center;
+  }
+  .section__text{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-container_1{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-container_2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1vw;
+  }
+  #socials-container{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -58,6 +86,35 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 1vh;
+  }
+  .main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". a b b"
+    ". a c d"
+    ". a e e";
+  }
+  .section__pic-container{
+    display: flex;
+    justify-content: center;
+  }
+  .section__text{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-container_1{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-container_2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1vw;
+    margin-right: 2vw;
+  }
+  #socials-container{
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -127,5 +184,131 @@
   .projects_containers{
     display: flex;
     flex-direction: column;
+  }
+  .main_container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a b b"
+    "a c d"
+    "a e e";
+  }
+  .section__pic-container{
+    display: flex;
+    justify-content: center;
+  }
+  .section__text{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-container_1{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 2vw;
+  }
+  .btn-container_2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1vw;
+  }
+  #socials-container{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-upper-container{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 50vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .experience_containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects_containers{
+    display: flex;
+    flex-direction: column;
+  }
+  .main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b "
+    "c d"
+    "e e";
+  }
+  .section__pic-container{
+    display: flex;
+    justify-content: center;
+  }
+  .section__text{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-container_1{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-container_2{
+    display: flex;
+    justify-content: flex-start;
+  }
+  #socials-container{
+    display: flex;
+    justify-content: center;
   }
 }
