@@ -284,6 +284,11 @@
     display: flex;
     flex-direction: column;
   }
+  .details-container_1{
+    width: 96vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
   .main_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
