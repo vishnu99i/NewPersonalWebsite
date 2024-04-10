@@ -76,6 +76,11 @@
   .btn-container {
     flex-wrap: wrap;
   }
+  .contact-info-upper-container{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+  }
   .contact-info-container {
     margin: 0;
   }
