@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    <link rel="icon" type="images/x-icon" href="assets/V.jpg"/>
+    <title>Vishnu_P/PersonalWebsite</title>
+  </head>
+  <body>
+
+    <div style="display: flex;
+    flex-direction: column;" id="introduction">
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+      <div style="position: fixed; width: 100%; z-index: 1;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+    
+            <div style="width: 50%;">
+             <h1>Vishnu P</h1>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 15rem; font-size: 1.5rem;">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" onclick="location.href='./#introduction'">Introduction</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" onclick="location.href='./#about'">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="location.href='./#experience'">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="location.href='./#projects'">Projects</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" onclick="location.href='./#contact'">Contact</a>
+                </li>
+              </ul>
+            </div>
+    
+          </div>
+        </nav>
+      </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+      <div class="main_container" style="display: flex;
+      flex-direction: row;">
+
+        <div style="flex: 1; display: grid;
+        justify-content: end;">
+          <div class="section__pic-container">
+            <img src="./assets/ResumePhoto1.jpg" alt="Vishnu profile picture" />
+          </div>
+        </div>
+
+        <div style="flex: 1;">
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Vishnu P</h1>
+            <p class="section__text__p2">MERN Stack Developer</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/VISHNU_P(RESUME).pdf')"
+              >
+                Download CV
+              </button>
+              <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+              </button>
+            </div>
+            <div id="socials-container">
+              <img
+                src="/assets/linkedin.png"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/vishnup21/';"
+                alt=""
+              />
+              <img
+                src="/assets/github.png"
+                class="icon"
+                onclick="location.href='https://github.com/vishnu99i'"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+      <div style="display: flex;
+      flex-direction: column;
+      margin-top: 3rem;" id="about">
+
+        <div style="height: 12vh;"></div>
+
+        <div>
+          <p class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+        </div>
+        
+        <div style="display: flex;
+        flex-direction: row;">
+
+          <div style="flex: 1; display: grid;
+          justify-content: flex-end; margin-right: 1%;">
+            <div class="details-container">
+              <img
+                class="icon"
+                src="assets/experience.png"
+                alt="Experience icon"
+              />
+              <h3>Experience</h3>
+              <p>Self Learned MERN Stack Developer</p>
+            </div>
+          </div>
+
+          <div style="flex: 1; display: grid;
+          justify-content: flex-start; margin-left: 1%;">
+            <div class="details-container">
+              <img
+                class="icon"
+                src="assets/education.png"
+                alt="Experience icon"
+              />
+              <h3>Education</h3>
+              <p>B TECH<br />Electrical and Electronics Engineering</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-right: 3%; margin-left: 3%; margin-top: 3%;">
+          <p>
+            I am a passionate MERN Stack Developer with knowledge in a range of programming languages such as C programming,Java and JavaScript,complemented by knowledge of cutting edge technologies like MongoDB, Express.js,React.js,Node.js,Rapid API and GIT With a relentless passion for crafting top tier, scalable web applications.I channel my skills into innovative concepts, transforming them into user centric, high performance software solutions.Fueled by a perpetual hunger for learning,I eagerly embrace emerging technologies,thriving in collaborative team environments,where I contribute with inventive and effective problem solving approaches.
+          </p>
+        </div>
+
+      </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+      <div style="display: flex;
+      flex-direction: column;
+      margin-top: 3rem;" id="experience">
+
+      <div style="height: 12vh; display: grid; justify-content: center;">
+        <img src="assets/mernstackimages.png" alt="">
+      </div>
+
+      <div>
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+      </div>
+
+      <div class="experience_containers">
+
+        <div style="display: grid;
+        justify-content: flex-start; margin: 1%;">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages Known</h2>
+            <div class="article-container">
+
+              <article>
+                <div>
+                  <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>C Programming</h3>
+                  <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>Java</h3>
+                  <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>JavaScript</h3>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+
+        <div style="display: grid;
+        justify-content: flex-start; margin: 1%;">
+          <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+
+            <article>
+              <div>
+                <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>HTML</h3>
+                <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>CSS</h3>
+                <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>JavaScript</h3>
+                <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>JQuery</h3>
+                <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>Bootstrap</h3>
+                <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>React</h3>
+                <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>Ajax</h3>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+
+      <div style="display: grid;
+      justify-content: flex-start; margin: 1%;">
+        <div class="details-container">
+        <h2 class="experience-sub-title">Backend Development and Database</h2>
+        <div class="article-container">
+
+          <article>
+            <div>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>Node JS</h3>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>Express JS</h3>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>MongoDB</h3>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>MongoDB Compass</h3>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>MongoDB Atlas</h3>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>Postman</h3>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>RESTful API</h3>
+              <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>Rapid API</h3>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+
+    <div style="display: grid;
+    justify-content: flex-start; margin: 1%;">
+      <div class="details-container">
+      <h2 class="experience-sub-title">Version Controller</h2>
+      <div class="article-container">
+
+        <article>
+          <div>
+            <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>GIT</h3>
+            <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>GitHub</h3>
+            <h3><img class="icon" src="assets/checkmark.png" alt="Experience icon"/>GitLab</h3>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+
+      </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+      <div style="display: flex;flex-direction: column;
+      margin-top: 3rem;" id="projects">
+
+        <div style="height: 12vh;"></div>
+
+        <div class="projects_container">
+          <p class="section__text__p1">Browse My Recent</p>
+          <h1 class="title">Projects</h1>
+        </div>
+
+        <div class="projects_containers">
+
+          <div style="flex: 1; margin: 1%;">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="assets/Todo.jpg"
+                  alt="project-1"
+                />
+              </div>
+              <h3 class="experience-sub-title project-title">Project One</h3>
+              <h2 class="experience-sub-title project-title">Todo Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/vishnu99i/TODOAPP'"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://vishnu99i.github.io/TODOAPP/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="flex: 1; margin: 1%;">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="assets/Dictionary.jpg"
+                  alt="project-2"
+                />
+              </div>
+              <h3 class="experience-sub-title project-title">Project Two</h3>
+              <h2 class="experience-sub-title project-title">Dictionary Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/vishnu99i/RAPIDAPI'"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://vishnu99i.github.io/RAPIDAPI/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+          </div>
+          </div>
+
+          <div style="flex: 1; margin: 1%;">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="assets/WebShopping.jpg"
+                  alt="project-3"
+                />
+              </div>
+              <h3 class="experience-sub-title project-title">Project Three</h3>
+              <h2 class="experience-sub-title project-title">WebShopping</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/vishnu99i/NewWebShopping'"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://vishnu99i.github.io/NewWebShopping/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+      <div style="display: flex;
+      flex-direction: column;
+      margin-top: 3rem;" id="contact">
+
+        <div>
+          <p class="section__text__p1">Get In Touch</p>
+          <h1 class="title">Contact Me</h1>
+        </div>
+
+        <div>
+          <div class="contact-info-upper-container">
+
+            <div class="contact-info-container">
+              <img
+                src="assets/email.png"
+                class="icon contact-icon"
+                alt="Email icon"
+              />
+              <a href="mailto:vishnupalakkat99@gmail.com">vishnupalakkat99@gmail.com</a>
+            </div>
+
+            <div class="contact-info-container">
+              <img
+                src="assets/linkedin.png"
+                class="icon contact-icon"
+                alt="Email icon"
+              />
+              <a href="https://www.linkedin.com/in/vishnup21/">LinkedIn</a>
+            </div>
+
+            <div class="contact-info-container">
+              <img
+                src="assets/github.png"
+                class="icon contact-icon"
+                alt="Email icon"
+              />
+              <a href="https://github.com/vishnu99i">GitHub</a>
+            </div>
+
+            <div class="contact-info-container">
+              <img
+                src="assets/NewPhoneIcon.png"
+                class="icon contact-icon"
+                alt="Email icon"
+              />
+              Phone Number : +91 7510334431
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
