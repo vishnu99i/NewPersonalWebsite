@@ -319,3 +319,23 @@ footer {
   height: 26vh;
   margin: 0 1rem;
 }
+
+/* Shining text animation*/
+.section__text__p2{
+  background: linear-gradient(90deg,#000, #aca8a8,#000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 80%;
+  animation: anime 2s infinite linear;
+}
+
+@keyframes anime{
+  0%{
+    background-position: -500%;
+  }
+  100%{
+    background-position: 500%;
+  }
+}
