@@ -13,6 +13,17 @@
 
     <link rel="icon" type="images/x-icon" href="assets/V.jpg"/>
     <title>Vishnu_P/PersonalWebsite</title>
+
+    <style>
+      .hoverable {
+        background-color: blue;
+        color: white;
+      }
+      .hoverable:hover, .hoverable.touch {
+        background-color: red;
+      }
+    </style>
+    
   </head>
   <body>
 
@@ -418,5 +429,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script src="script.js"></script>
+
+    <div class="hoverable" id="hoverableDiv">Hover or Touch Me</div>
+    <script>
+      var hoverableDiv = document.getElementById("hoverableDiv");
+    
+      hoverableDiv.addEventListener("touchstart", function() {
+        this.classList.add("touch");
+      });
+    
+      hoverableDiv.addEventListener("touchend", function() {
+        this.classList.remove("touch");
+      });
+    </script>
   </body>
 </html>
