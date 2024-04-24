@@ -14,16 +14,6 @@
     <link rel="icon" type="images/x-icon" href="assets/V.jpg"/>
     <title>Vishnu_P/PersonalWebsite</title>
 
-    <style>
-      .hoverable {
-        background-color: blue;
-        color: white;
-      }
-      .hoverable:hover, .hoverable.touch {
-        background-color: red;
-      }
-    </style>
-    
   </head>
   <body>
 
@@ -120,7 +110,7 @@
       </div>
 <!--------------------------------------------------------------------------------------------------------------------------------------->
       <div style="display: flex;
-      flex-direction: column;" id="about" class="scale-in-center">
+      flex-direction: column;" id="about" class="hoverable">
 
         <div style="height: 12vh;"></div>
 
@@ -430,17 +420,5 @@
 
     <script src="script.js"></script>
 
-    <div class="hoverable" id="hoverableDiv">Hover or Touch Me</div>
-    <script>
-      var hoverableDiv = document.getElementById("hoverableDiv");
-    
-      hoverableDiv.addEventListener("touchstart", function() {
-        this.classList.add("touch");
-      });
-    
-      hoverableDiv.addEventListener("touchend", function() {
-        this.classList.remove("touch");
-      });
-    </script>
   </body>
 </html>
