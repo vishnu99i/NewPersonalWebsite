@@ -5,7 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-var hoverableDiv = document.getElementById("aboutdiv");
+var hoverableDiv = document.getElementById("about");
     
 hoverableDiv.addEventListener("touchstart", function() {
   this.classList.add("touch");
