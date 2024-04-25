@@ -4,13 +4,3 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
-
-var hoverableDiv = document.getElementById("about");
-    
-hoverableDiv.addEventListener("touchstart", function() {
-  this.classList.add("touch");
-});
-
-hoverableDiv.addEventListener("touchend", function() {
-  this.classList.remove("touch");
-});
